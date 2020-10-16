@@ -32,9 +32,9 @@ export class Control {
     }
 
 
-    private comprobarCoordenada(coordenada: number, maximo: number): boolean {
-        let minimo:number=0;
-        if (coordenada>=minimo && coordenada < maximo) {
+    private comprobarCoordenada(coordenada: number, max: number): boolean {
+        let min:number=0;
+        if (coordenada>=min && coordenada < max) {
             return true
         }
         return false;
